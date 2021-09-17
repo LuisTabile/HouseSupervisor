@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuartoSolteiro">
+
+    <Button
+        android:id="@+id/btn_quars1"
+        android:layout_width="0dp"
+        android:layout_height="45sp"
+        android:layout_marginTop="160dp"
+        android:text="@string/quars1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_quars2"
+        android:layout_width="0dp"
+        android:layout_height="45sp"
+        android:text="@string/quars2"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_quars1" />
+
+    <Button
+        android:id="@+id/btn_quars3"
+        android:layout_width="0dp"
+        android:layout_height="45sp"
+        android:text="@string/quars3"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_quars2" />
+
+    <Button
+        android:id="@+id/btn_quars4"
+        android:layout_width="0dp"
+        android:layout_height="45sp"
+        android:text="@string/quars4"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_quars3" />
+
+    <Button
+        android:id="@+id/btn_quars5"
+        android:layout_width="0dp"
+        android:layout_height="45sp"
+        android:text="@string/quars5"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_quars4" />
+
+    <Button
+        android:id="@+id/btn_quars6"
+        android:layout_width="0dp"
+        android:layout_height="45sp"
+        android:text="@string/quars6"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_quars5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

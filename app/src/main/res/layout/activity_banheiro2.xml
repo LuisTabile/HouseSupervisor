@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Banheiro2">
+
+    <ImageView
+        android:id="@+id/DemeiLogo"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/demeiletraspretoeditado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/GaicLogo"
+        android:layout_width="215dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/gaicletrasamareloepretoeditando"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/UnijuiLogo"
+        android:layout_width="178dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/_619___copia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_arb2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_01_air_conditioning" />
+
+    <ImageView
+        android:id="@+id/img_chuvb2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_03_shower" />
+
+    <ImageView
+        android:id="@+id/img_lampb2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/_04_light_bulb" />
+
+    <ImageView
+        android:id="@+id/img_banb2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:srcCompat="@drawable/_05_bathtub" />
+
+    <ImageView
+        android:id="@+id/img_espb2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_02_mirror" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:text="AR CONDICIONADO"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_arb2" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:text="BANHEIRA"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_banb2" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:text="ESPELHO"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_espb2" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:text="LÂMPADA"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_lampb2" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHUVEIRO"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_chuvb2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
